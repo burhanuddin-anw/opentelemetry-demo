@@ -16,7 +16,7 @@ tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 
 opentelemetry = "0.30.0"
-opentelemetry_sdk = "0.30.0"
+opentelemetry_sdk = "0.32.1"
 opentelemetry-otlp = { version = "0.30.0", features = ["grpc-tonic"] }
 opentelemetry-instrumentation-actix-web = { version = "0.22.0", features = ["sync-middleware", "awc", "metrics"] }
 opentelemetry-appender-tracing = "0.30.1"
